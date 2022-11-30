@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Enter Your Favorite Number</h1>
+    <form id="favoriteNumber"  onsubmit="return favNumber()" action="#">
+        <input type="number" id="fav">
+        <input type="submit">
+    </form>
+
+    <h2>Four facts about your favorite number</h2>
+    <ul id="factList">
+
+    </ul>
+
+    <h2>Enter Your Favorite Four Numbers</h1>
+        <form id="favoriteFourNumbers" onsubmit="return fav4Numbers()" action="#">
+            <input type="number" id="fav1">
+            <input type="number" id="fav2">
+            <input type="number" id="fav3">
+            <input type="number" id="fav4">
+            <input type="submit">
+        </form>
+    
+        <h2>Four facts about your four favorite numbers</h2>
+        <ul id="factList4">
+    
+        </ul>
+    
+    
+    <script src="https://unpkg.com/jquery"></script>
+    <script src="https://unpkg.com/axios/dist/axios.js"></script>
+
+    <script src="app.js"></script>
+</body>
+</html>
